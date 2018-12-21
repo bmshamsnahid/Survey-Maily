@@ -1,6 +1,8 @@
 {
     "completed": 11,
     "heroku": {
-        "mail": "personalsite4@gmail.com"
+        "mail": "personalsite4@gmail.com",
+        "deploymentTarget": "https://git.heroku.com/protected-bayou-11693.git",
+        "link": "https://protected-bayou-11693.herokuapp.com/"
     }
 }
