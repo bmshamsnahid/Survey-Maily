@@ -1,8 +1,14 @@
 {
-    "completed": 11,
+    "completed": 44,
     "heroku": {
         "mail": "personalsite4@gmail.com",
         "deploymentTarget": "https://git.heroku.com/protected-bayou-11693.git",
         "link": "https://protected-bayou-11693.herokuapp.com/"
+    },
+    "mLab": {
+      "mail": "personalsite4@gmail.com",
+      "username": "personalsite4",
+      "dbUserName": "dbuser",
+      "dbPassword": "dbpassword56316498"
     }
 }
