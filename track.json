@@ -1,5 +1,5 @@
 {
-    "completed": 66,
+    "completed": 86,
     "heroku": {
         "mail": "personalsite4@gmail.com",
         "deploymentTarget": "https://git.heroku.com/protected-bayou-11693.git",
@@ -12,7 +12,7 @@
         "databasename": "survey-mail-dev",
         "dbUserName": "dbuser",
         "dbPassword": "dbpassword56316498"
-      }, 
+      },
       "prod": {
         "mail": "personalsite4@gmail.com",
         "username": "personalsite4",

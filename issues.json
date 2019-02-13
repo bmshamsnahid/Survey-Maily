@@ -1,0 +1,4 @@
+{
+    "1": "in client header, `address for login with google is explicitly defined`",
+    "2": "in server auth routes, `redirect after callback is explicitly defined`"
+}
