@@ -4,6 +4,7 @@ const cookieSession = require('cookie-session');
 const passport = require('passport');
 const bodyParser = require('body-parser');
 const path = require('path');
+const cors = require('cors');
 
 const { mongoURI, cookieKey } = require('./config/keys');
 require('./models/Survey');
@@ -13,6 +14,7 @@ require('./services/passport');
 mongoose.connect(mongoURI, { useNewUrlParser: true });
 
 const app = express();
+app.use(cors());
 
 app.use(bodyParser.json());
 app.use(cookieSession({
