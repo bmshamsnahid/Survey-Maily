@@ -20,12 +20,12 @@ class SurveyList extends Component {
               { survey.body }
             </p>
             <p className='right'>
-              Sendt On: { new Date(survey.dateSent).toLocaleDateString() }
+              Sent On: { new Date(survey.dateSent).toLocaleDateString() }
             </p>
           </div>
           <div className='card-action'>
             <Link to='#'>Yes: { survey.yes }</Link>
-            <Link to='#'>No: { survey.no }</Link>
+            <Link to='#'>No: { survey.No }</Link>
           </div>
         </div>
       );
