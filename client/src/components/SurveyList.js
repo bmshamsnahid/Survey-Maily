@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 import { fetchSurveys } from '../actions';
 
@@ -23,8 +24,8 @@ class SurveyList extends Component {
             </p>
           </div>
           <div className='card-action'>
-            <a>Yes: { survey.yes }</a>
-            <a>No: { survey.no }</a>
+            <Link to='#'>Yes: { survey.yes }</Link>
+            <Link to='#'>No: { survey.no }</Link>
           </div>
         </div>
       );

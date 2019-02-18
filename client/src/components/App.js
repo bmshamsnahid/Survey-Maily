@@ -8,6 +8,14 @@ import Landing from './Landing';
 import Dashboard from './Dashboard';
 import SurveyNew from './surveys/SurveyNew';
 
+function Logout({ history }) {
+  return(
+    <div>
+      This is logout component
+    </div>
+  );
+}
+
 class App extends Component {
   componentDidMount() {
     this.props.fetchUser()
@@ -21,6 +29,7 @@ class App extends Component {
             <Header />
             <Route exact path='/' component={ Landing } />
             <Route exact path='/surveys' component={ Dashboard } />
+            <Route exact path='/api/logout' component={ Logout } />
             <Route path='/surveys/new' component={ SurveyNew } />
           </div>
         </BrowserRouter>
