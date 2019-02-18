@@ -25,7 +25,7 @@ class SurveyList extends Component {
           </div>
           <div className='card-action'>
             <Link to='#'>Yes: { survey.yes }</Link>
-            <Link to='#'>No: { survey.No }</Link>
+            <Link to='#'>No: { survey.no }</Link>
           </div>
         </div>
       );
